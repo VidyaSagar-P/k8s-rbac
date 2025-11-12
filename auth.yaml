@@ -7,10 +7,10 @@ data:
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
-  - groups:
-    - sagar-role
-    userarn: arn:aws:iam::697576974187:user/sagar
-    username: sagar
+    - groups:
+      - sagar-role
+      userarn: arn:aws:iam::697576974187:user/sagar
+      username: sagar
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-11-12T09:56:22Z"
