@@ -80,7 +80,7 @@ roleRef:
 
 
 # apiVersion: rbac.authorization.k8s.io/v1
-# kind: ClusterRole
+# kind: ClusterRoleBinding
 # metadata:
 #   # "namespace" omitted since ClusterRoles are not namespaced
 #   name: secret-reader
