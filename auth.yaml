@@ -8,7 +8,7 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
-      - sagar-rolebinding
+      - sagar
       userarn: arn:aws:iam::697576974187:user/sagar
       username: sagar
 kind: ConfigMap
