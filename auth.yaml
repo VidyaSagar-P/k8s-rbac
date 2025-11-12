@@ -1,0 +1,15 @@
+apiVersion: v1
+data:
+  mapRoles: |
+    - rolearn: arn:aws:iam::697576974187:role/eksctl-roboshop-nodegroup-roboshop-NodeInstanceRole-JBqM7Qqt73JF
+  mapUsers: |
+  - groups:
+    - sagar-role
+    userarn: arn:aws:iam::697576974187:user/sagar
+    username: sagar
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2025-11-12T09:56:22Z"
+  name: aws-auth
+  namespace: roboshop
+  uid: 55c3805f-df36-4433-9063-26f7e49575e2
